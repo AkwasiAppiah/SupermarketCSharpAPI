@@ -1,4 +1,4 @@
-﻿/*using AutoMapper;
+﻿using AutoMapper;
 using Supermarket.Domain.Models;
 using Supermarket.Resources;
 using System;
@@ -15,4 +15,4 @@ namespace Supermarket.Mapping
             CreateMap<Category, CategoryResource>();
         }
     }
-}*/
+}
