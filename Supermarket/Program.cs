@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Supermarket.Persistence.Contexts;
 using System;
 using System.Collections.Generic;
 using System.IO;

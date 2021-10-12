@@ -9,7 +9,6 @@ namespace Supermarket.Persistence.Contexts
 {
     public class AppDbContext : DbContext
     {
- {
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
 
@@ -39,5 +38,4 @@ namespace Supermarket.Persistence.Contexts
             builder.Entity<Product>().Property(p => p.UnitOfMeasurement).IsRequired();
         }
     }
-}
 }
